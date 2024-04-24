@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@babel/eslint-parser": "^7.24.1",
+    "@babel/plugin-syntax-import-assertions": "^7.24.1",
+    "discord.js": "^14.12.1",
+    "dotenv": "^16.4.5"
+  },
+  "scripts": {
+    "test": "node src\\index.js",
+    "pm2": "pm2 restart bot",
+    "prettier-format": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,html,css,json}\"",
+    "eslint-fix": "eslint --fix ."
+  }
+}
